@@ -19,7 +19,7 @@ while start:
     
     ask_stay = input("Do you want to start again? Y/N  ")
 
-    if (ask_stay == "N" or ask_stay == "n"):
+    if ask_stay in ("N", "n", "NO"):
         print ("BYE BYE")
         start = False
     
